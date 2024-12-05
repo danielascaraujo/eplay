@@ -1,10 +1,10 @@
 import { createGlobalStyle } from 'styled-components'
 
-export const cores = {
-  branca: '#EEEEEE',
-  preta: '#111',
-  cinza: '#333',
-  verde: '#10AC84'
+export const colors = {
+  white: '#EEEEEE',
+  black: '#111',
+  gray: '#333',
+  green: '#10AC84'
 }
 
 export const GlobalCss = createGlobalStyle`
@@ -17,8 +17,8 @@ export const GlobalCss = createGlobalStyle`
   }
 
   body {
-  background-color: ${cores.preta};
-  color: ${cores.branca};
+  background-color: ${colors.black};
+  color: ${colors.white};
   padding-top: 40px;
 
   .container {
