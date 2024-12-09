@@ -8,7 +8,7 @@ export const Container = styled.footer`
 `
 
 export const SectionTitle = styled.h4`
-  color: #${colors.white};
+  color: ${colors.white};
   font-size: 16px;
   font-weight: bold;
 `
@@ -18,7 +18,7 @@ export const Links = styled.ul`
   margin-top: 16px;
 `
 
-export const Link = styled.s`
+export const Link = styled.a`
   color: ${colors.lightGray};
   text-decoration: none;
   margin-right: 8px;

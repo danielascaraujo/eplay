@@ -1,4 +1,4 @@
-import { Container, SectionTitle, Links, Link, FooterSection } from './styles'
+import { Container, FooterSection, Link, Links, SectionTitle } from './styles'
 
 const currentYear = new Date().getFullYear()
 
@@ -45,7 +45,7 @@ const Footer = () => (
           </li>
         </Links>
       </FooterSection>
-      <p>{currentYear} - &copy; E-PLAY Todos os direitos reservados.</p>
+      <p>{currentYear} - &copy; E-PLAY Todos os direitos reservados</p>
     </div>
   </Container>
 )
